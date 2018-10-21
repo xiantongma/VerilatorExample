@@ -5,6 +5,8 @@ module tb(
 	bit [31:0] mem [0:15];
 	initial begin
 		$display("hello");
+		//$dumpfile("a.vcd");
+        //$dumpvars(0);
 		$readmemh("flash.in", mem);
 		for (int i=0; i<4; i++) begin
 			$display("%08x",mem[i]);
