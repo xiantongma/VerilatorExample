@@ -16,11 +16,14 @@ waveform
 
 ## addtion options
 
+
 ### fst waveformat
+
+#### makefile
 
 flags += --trace-fst
 
-### sim_main.cpp
+#### sim_main.cpp
 
 ```cpp
 #include "verilated_fst_c.h"
@@ -63,7 +66,7 @@ int main(int argc, char** argv, char** env) {
     exit(0);
 }
 
-#### makefile
+
 
 
 
